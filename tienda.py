@@ -189,6 +189,7 @@ with st.container(): # Contenedor secundario
 
 
 with st.container(): # Contenedor secundario
+    st.write("Comparación de ventas diaras")  
     col1, col2 = st.columns([1, 3])  # Proporciones de ancho
     
     with col1:
